@@ -14,7 +14,7 @@ import React from "react";
 export function Counter() {
   const { connected } = useTonConnect();
   const { value, address, sendIncrement } = useCounterContract();
-
+  
   return (
     <div className="Container">
       <TonConnectButton />
