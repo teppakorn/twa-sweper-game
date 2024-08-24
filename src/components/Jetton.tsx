@@ -8,6 +8,7 @@ import {
   Button,
   Ellipsis,
 } from "./styled/styled";
+import React from "react";
 
 export function Jetton() {
   const { connected } = useTonConnect();

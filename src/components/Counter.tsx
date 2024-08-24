@@ -9,6 +9,7 @@ import {
   Ellipsis,
   Button,
 } from "./styled/styled";
+import React from "react";
 
 export function Counter() {
   const { connected } = useTonConnect();
